@@ -99,7 +99,7 @@
     ],
     "runtime": {
         "mfa": {
-            "channel": "stable",
+            "channel": "beta",
             "enabled": true,
             "version": ""
         },
