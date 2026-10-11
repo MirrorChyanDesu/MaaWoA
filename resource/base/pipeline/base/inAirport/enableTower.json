@@ -22,21 +22,45 @@
             }
         }
     },
-    "__matchDockerTowerLEDbeGREEN__": {
+    "__matchDockerTowerLEDbeRED__": {
         "recognition": {
             "type": "ColorMatch",
             "param": {
                 "roi": "__locateDockerTowerLED__",
                 "method": 40,
                 "lower": [
-                    62,
-                    133,
-                    209
+                    [
+                        169,
+                        134,
+                        244
+                    ],
+                    [
+                        0,
+                        69,
+                        176
+                    ],
+                    [
+                        104,
+                        67,
+                        127
+                    ]
                 ],
                 "upper": [
-                    84,
-                    155,
-                    231
+                    [
+                        179,
+                        156,
+                        255
+                    ],
+                    [
+                        25,
+                        156,
+                        255
+                    ],
+                    [
+                        106,
+                        69,
+                        129
+                    ]
                 ],
                 "connected": true,
                 "count": 20
@@ -52,11 +76,10 @@
                 "all_of": [
                     "__cacheDockerTower__",
                     "__locateDockerTowerLED__",
-                    "__matchDockerTowerLEDbeGREEN__"
+                    "__matchDockerTowerLEDbeRED__"
                 ]
             }
         },
-        "inverse": true,
         "next": [
             "extendTowerCondition",
             "finishNode"

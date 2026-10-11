@@ -44,6 +44,7 @@
             0,
             0
         ],
+        "repeat": 2,
         "post_delay": 200,
         "next": [
             "dockerFunction",
