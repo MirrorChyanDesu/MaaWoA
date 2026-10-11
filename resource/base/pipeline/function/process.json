@@ -9,7 +9,8 @@
         "next": [
             "[Anchor]page2page.FromPage",
             "[Anchor]page2page.ToPage"
-        ]
+        ],
+        "on_error": ["detectPage"]
     },
     "function.disappearing.homePage": {
         "recognition": {
@@ -22,7 +23,8 @@
                 "model": "WoA-page.onnx"
             }
         },
-        "next": ["[Anchor]page2page.ToPage"]
+        "next": ["[Anchor]page2page.ToPage"],
+        "on_error": ["detectPage"]
     },
     "function.disappearing.airportSelecPage": {
         "recognition": {
@@ -35,7 +37,8 @@
                 "model": "WoA-page.onnx"
             }
         },
-        "next": ["[Anchor]page2page.ToPage"]
+        "next": ["[Anchor]page2page.ToPage"],
+        "on_error": ["detectPage"]
     },
     "function.disappearing.entryAirportPage": {
         "recognition": {
@@ -48,7 +51,8 @@
                 "model": "WoA-page.onnx"
             }
         },
-        "next": ["[Anchor]page2page.ToPage"]
+        "next": ["[Anchor]page2page.ToPage"],
+        "on_error": ["detectPage"]
     },
     "function.disappearing.towerPage": {
         "recognition": {
@@ -61,7 +65,8 @@
                 "model": "WoA-page.onnx"
             }
         },
-        "next": ["[Anchor]page2page.ToPage"]
+        "next": ["[Anchor]page2page.ToPage"],
+        "on_error": ["detectPage"]
     },
     "function.appearing.homePage": {
         "recognition": {
