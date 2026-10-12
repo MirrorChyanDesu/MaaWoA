@@ -1,5 +1,8 @@
 {
     "addons": {
+        "android": {
+            "enabled": true
+        },
         "autoFormat": {
             "enabled": true
         },
