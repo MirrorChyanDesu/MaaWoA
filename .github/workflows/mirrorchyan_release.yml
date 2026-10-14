@@ -77,13 +77,13 @@ jobs:
         include:
           - os: android
             arch: ""
-            filename: "" # 例: MaaWoA-android-v*.apk
+            filename: "MaaWoA-android-v*.apk" # 例: MaaWoA-android-v*.apk
           - os: android
             arch: arm64
-            filename: "" # 例: MaaWoA-android-arm64-v8a-*.apk
+            filename: "MaaWoA-android-arm64-v8a-*.apk" # 例: MaaWoA-android-arm64-v8a-*.apk
           - os: android
             arch: amd64
-            filename: "" # 例: MaaWoA-android-x86_64-*.apk
+            filename: "MaaWoA-android-x86_64-*.apk" # 例: MaaWoA-android-x86_64-*.apk
     steps:
       - uses: MirrorChyan/uploading-action@v1
         if: ${{ matrix.filename != '' }}
